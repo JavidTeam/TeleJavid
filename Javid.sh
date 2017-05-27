@@ -81,7 +81,7 @@ update() {
 
 if [ "$1" = "install" ]; then
 	print_logo
-	Javid_Team
+	JavidTeam
 	logo_play
 	install
   else
@@ -91,7 +91,7 @@ if [ ! -f ./tg/tgcli ]; then
     exit 1
  fi
 	print_logo
-	Javid_Team
+	JavidTeam
 	logo_play
    #sudo service redis-server restart
    ./tg/tgcli -s ./bot/bot.lua -l 1 -E $@
