@@ -35,11 +35,11 @@ screen ./autobd.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/ASBJavidgit && cd ASBJavid && chmod +x Javid.sh && ./Javid.sh install && ./Javid.sh
+cd $HOME && git clone https://github.com/javidTeam/ASBJavidgit && cd ASBJavid && chmod +x Javid.sh && ./Javid.sh install && ./Javid.sh
 
 OR
 
-cd $HOME && git clone https://github.com/Javid_Team/ASBJavid.git && cd ASBJavid && chmod +x Javid.sh && ./Javid.sh install && chmod 777 autobd.sh && screen ./autobd.sh
+cd $HOME && git clone https://github.com/JavidTeam/ASBJavid.git && cd ASBJavid && chmod +x Javid.sh && ./Javid.sh install && chmod 777 autobd.sh && screen ./autobd.sh
 
 
 * * *
