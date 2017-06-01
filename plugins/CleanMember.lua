@@ -12,16 +12,16 @@ local function mmm(chat_id)
   return chat
 end
 
-local function matador(msg, matches)
-local bot_id = 393217901 -- bot id
-if matches[1] == 'cm' and is_sudo(msg) or matches[1] == 'Cm' and is_sudo(msg) or matches[1] == 'پاک کردن کاربران' and is_sudo(msg) then 
+local function javid(msg, matches)
+local bot_id = 368613916 -- bot id
+if matches[1] == 'cm' and is_sudo(msg) or matches[1] == 'Cm' and is_sudo(msg) or matches[1] == 'پاک کردن همه' and is_sudo(msg) then 
   function m(arg, data) 
     for k, v in pairs(data.members_) do
     if tonumber(v.user_id_) ~= tonumber(bot_id) then
      kick_user(v.user_id_, msg.to.id) 
 end
 end
-    tdcli.sendMessage(msg.to.id, msg.id, 1, '*All Members was cleared.*', 1, 'md') 
+    tdcli.sendMessage(msg.to.id, msg.id, 1, '*All Members was cleared And 🖕FUCK YOU *', 1, 'md') 
 end  
   tdcli_function ({ID = "GetChannelMembers",channel_id_ = mmm(msg.to.id).ID,offset_ = 0,limit_ = 1000}, m, nil)
   end 
@@ -31,9 +31,9 @@ return {
 patterns ={  
 "^[!/#]([Cc]m)$",
 "^([Cc]m)$",
-"^(پاک کردن کاربران)$"
+"^(پاک کردن همه)$"
  }, 
-  run =  matador
+  run =  javid
 }
 
 
