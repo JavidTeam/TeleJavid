@@ -101,7 +101,8 @@ function create_config( )
     "Rmsg",
     "Time",
     "Tools",
-    "Write"
+    "Write",
+    "delall"			
 	},
     sudo_users = {226399128},
     admins = {},
@@ -111,7 +112,8 @@ function create_config( )
 		
 		»Sudo BoT :
 		» @Ali_k_1999
-		
+		» our channel
+ 		» @Javid_Team
         
 		v5 https://github.com/JavidTeam/ASBJavid
 GoOd luck ;))
