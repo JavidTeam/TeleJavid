@@ -23,7 +23,7 @@ ASBJavid New AntiSpam Bot Javid Team Update By Javid @Ali_k_1999
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/Javid_Team/ASBJavid.git
+git clone https://github.com/JavidTeam/ASBJavid.git
 cd ASBJavid
 chmod +x javid.sh
 ./javid.sh install
@@ -38,11 +38,11 @@ screen ./auto.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/Javid_Team/ASBJavid.git && cd ASBJavid && chmod +x javid.sh && ./javid.sh install && ./javid.sh
+cd $HOME && git clone https://github.com/JavidTeam/ASBJavid.git && cd ASBJavid && chmod +x javid.sh && ./javid.sh install && ./javid.sh
 
 OR
 
-cd $HOME && git clone https://github.com/Javid_Team/ASBJavid.git && cd ASBJavid && chmod +x javid.sh && ./javid.sh install && chmod 777 auto.sh && screen ./auto.sh
+cd $HOME && git clone https://github.com/JavidTeam/ASBJavid.git && cd ASBJavid && chmod +x javid.sh && ./javid.sh install && chmod 777 auto.sh && screen ./auto.sh
 ```
 
 * * *
