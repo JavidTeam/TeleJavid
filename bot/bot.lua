@@ -97,8 +97,7 @@ function create_config( )
     "Plugins",
     "Time",
     "Tools",
-    "Write",
-    "delall"			
+    "Write"			
 	},
     sudo_users = {226399128},
     admins = {},
