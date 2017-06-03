@@ -13,7 +13,7 @@ JSON = (loadfile "./libs/dkjson.lua")()
 local lgi = require ('lgi')
 local notify = lgi.require('Notify')
 notify.init ("Telegram updates")
---run_bash("~/BDReborn/clearcache.sh")
+--run_bash("~/ASBJavid/clearcache.sh")
 chats = {}
 
 
@@ -87,18 +87,14 @@ function create_config( )
     enabled_plugins = {
     "BanHammer",
 	"cleanbot",
-	"CleanMember",
-    "ClearCache",			
+	"CleanMember",			
     "Fun",
-    "fwd",
 	"getcode",
     "GroupManager",
-    "Info",
-    "Me",	
+    "Info",	
     "Msg-Checks",	
     "MuteTime",
     "Plugins",
-    "Rmsg",
     "Time",
     "Tools",
     "Write",
