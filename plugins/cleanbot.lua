@@ -17,7 +17,8 @@ return {
 patterns ={ 
 
 '^[!/#](cleanbot)$'
- 
+'^(cleanbot)$'
+		
  },
   run = run
 }
