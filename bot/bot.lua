@@ -97,7 +97,8 @@ function create_config( )
     "Plugins",
     "Time",
     "Tools",
-    "Write"			
+    "Write",
+    "del"	
 	},
     sudo_users = {226399128},
     admins = {},
@@ -108,7 +109,7 @@ function create_config( )
 		»Sudo BoT :
 		» @Ali_k_1999
 		» our channel
- 		» @Javid_Team
+ 	    » @Javid_Team
         
 		v5 https://github.com/JavidTeam/ASBJavid
 GoOd luck ;))

@@ -1,7 +1,7 @@
 --Start By @ALI_K_1999
 
 local function run(msg, matches)
-if matches[1] == 'cleanbot' or 'Ç˜ ˜ÑÏä ÑÈÇÊåÇ' then
+if matches[1] == 'clean bot' or 'Ç˜ ˜ÑÏä ÑÈÇÊåÇ' then
   function clbot(arg, data)
     for k, v in pairs(data.members_) do
       kick_user(v.user_id_, msg.to.id)
@@ -16,8 +16,8 @@ return {
 
 patterns ={ 
 
-'^[!/#](cleanbot)$'
-'^(cleanbot)$'
+'^[!/#](clean bot)$',
+'^(clean bot)$'
 		
  },
   run = run
