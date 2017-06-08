@@ -104,14 +104,14 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[» ASBJavid v5.2
+    info_text = [[» Tele Javid v5.2
 		
 		»Sudo BoT :
 		» @Ali_k_1999
 		» our channel
  	   » @Javid_Team
         
-		v5 https://github.com/JavidTeam/ASBJavid
+		v5 https://github.com/JavidTeam/TeleJavid
 GoOd luck ;))
 ]],
   }
