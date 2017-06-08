@@ -13,7 +13,7 @@ JSON = (loadfile "./libs/dkjson.lua")()
 local lgi = require ('lgi')
 local notify = lgi.require('Notify')
 notify.init ("Telegram updates")
---run_bash("~/ASBJavid/clearcache.sh")
+--run_bash("~/Tele Javid/clearcache.sh")
 chats = {}
 
 
