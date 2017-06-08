@@ -109,7 +109,7 @@ function create_config( )
 		»Sudo BoT :
 		» @Ali_k_1999
 		» our channel
- 	    » @Javid_Team
+ 	   » @Javid_Team
         
 		v5 https://github.com/JavidTeam/ASBJavid
 GoOd luck ;))
