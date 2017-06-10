@@ -1,7 +1,7 @@
-# ASBJavid
-ASBJavid New AntiSpam Bot Javid Team Update By Javid @Ali_k_1999
+# TeleJavid
+TeleJavid New AntiSpam Bot Javid Team Update By Javid @Ali_k_1999
 
-# [ASBJavid V6 (Final Version)](https://telegram.me/Javid_Team)
+# [TeleJavid V6 (Final Version)](https://telegram.me/Javid_Team)
 
 **An advanced and powerful administration bot based on NEW TG-CLI
 
@@ -23,26 +23,26 @@ ASBJavid New AntiSpam Bot Javid Team Update By Javid @Ali_k_1999
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/JavidTeam/ASBJavid.git
-cd ASBJavid
+git clone https://github.com/JavidTeam/TeleJavid.git
+cd TeleJavid
 chmod +x javid.sh
 ./javid.sh install
 ./javid.sh 
 # Enter a phone number & confirmation code.
 
 # For Auto Launch:
-cd ASBJavid
+cd TeleJavid
 chmod 777 auto.sh
 screen ./auto.sh
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/JavidTeam/ASBJavid.git && cd ASBJavid && chmod +x javid.sh && ./javid.sh install && ./javid.sh
+cd $HOME && git clone https://github.com/JavidTeam/TeleJavid.git && cd TeleJavid && chmod +x javid.sh && ./javid.sh install && ./javid.sh
 
 OR
 
-cd $HOME && git clone https://github.com/JavidTeam/ASBJavid.git && cd ASBJavid && chmod +x javid.sh && ./javid.sh install && chmod 777 auto.sh && screen ./auto.sh
+cd $HOME && git clone https://github.com/JavidTeam/TeleJavid.git && cd TeleJavid && chmod +x javid.sh && ./javid.sh install && chmod 777 auto.sh && screen ./auto.sh
 ```
 
 * * *
