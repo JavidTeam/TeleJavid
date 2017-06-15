@@ -51,14 +51,14 @@ function logo_play() {
 	echo -e "\e[0m"
 }
 
-function beyondteam() {
+function Javid_Team() {
 	echo -e "\e[0m"
 	green "     >>>>                       We Are Not Attacker                             "
 	green "     >>>>                       We Are Not Alliance                             "
 	white "     >>>>                       We Are Programmer                               "
 	white "     >>>>                       We Are The Best                                 "
 	red   "     >>>>                       We Are Family                                   "
-	red   "     >>>>                       @BeyondTeam                                     "
+	red   "     >>>>                       @Javid_Team                                     "
 	echo -e "\e[0m"
 }
 
@@ -77,7 +77,7 @@ update() {
 
 if [ "$1" = "install" ]; then
 	print_logo
-	beyondteam
+	Javid_Team
 	logo_play
 	install
   else
@@ -87,7 +87,7 @@ if [ ! -f ./tg/tgcli ]; then
     exit 1
  fi
 	print_logo
-	beyondteam
+	Javid_Team
 	logo_play
    #sudo service redis-server restart
    ./tg/tgcli -s ./bot/bot.lua -l 1 -E $@
