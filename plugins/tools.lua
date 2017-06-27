@@ -1267,103 +1267,103 @@ text = [[
 
 _Sudoer And Admins Javid Bot Help :_
 
-*!visudo* `[username|id|reply]`
+*visudo* `[username|id|reply]`
 _Add Sudo_
 
-*!desudo* `[username|id|reply]`
+*desudo* `[username|id|reply]`
 _Demote Sudo_
 
-*!sudolist *
+*sudolist *
 _Sudo(s) list_
 
-*!adminprom* `[username|id|reply]`
+*adminprom* `[username|id|reply]`
 _Add admin for bot_
 
-*!admindem* `[username|id|reply]`
+*admindem* `[username|id|reply]`
 _Demote bot admin_
 
-*!adminlist *
+*adminlist *
 _Admin(s) list_
 
-*!leave *
+*leave *
 _Leave current group_
 
-*!autoleave* `[disable/enable]`
+*autoleave* `[disable/enable]`
 _Automatically leaves group_
 
-*!creategroup* `[text]`
+*creategroup* `[text]`
 _Create normal group_
 
-*!createsuper* `[text]`
+*createsuper* `[text]`
 _Create supergroup_
 
-*!tosuper *
+*tosuper *
 _Convert to supergroup_
 
-*!chats*
+*chats*
 _List of added groups_
 
-*!join* `[id]`
+*join* `[id]`
 _Adds you to the group_
 
-*!rem* `[id]`
+*rem* `[id]`
 _Remove a group from Database_
 
-*!import* `[link]`
+*import* `[link]`
 _Bot joins via link_
 
-*!setbotname* `[text]`
+*setbotname* `[text]`
 _Change bot's name_
 
-*!setbotusername* `[text]`
+*setbotusername* `[text]`
 _Change bot's username_
 
-*!delbotusername *
+*delbotusername *
 _Delete bot's username_
 
-*!markread* `[off/on]`
+*markread* `[off/on]`
 _Second mark_
 
-*!broadcast* `[text]`
+*broadcast* `[text]`
 _Send message to all added groups_
 
-*!bc* `[text] [GroupID]`
+*bc* `[text] [GroupID]`
 _Send message to a specific group_
 
-*!sendfile* `[folder] [file]`
+*sendfile* `[folder] [file]`
 _Send file from folder_
 
-*!sendplug* `[plug]`
+*sendplug* `[plug]`
 _Send plugin_
 
-*!save* `[plugin name] [reply]`
+*save* `[plugin name] [reply]`
 _Save plugin by reply_
 
-*!savefile* `[address/filename] [reply]`
+*savefile* `[address/filename] [reply]`
 _Save File by reply to specific folder_
 
-*!config*
+*config*
 _Set Owner and Admin Group_
 
-*!clear cache*
+*clear cache*
 _Clear All Cache Of .telegram-cli/data_
 
-*!check*
+*check*
 _Stated Expiration Date_
 
-*!check* `[GroupID]`
+*check* `[GroupID]`
 _Stated Expiration Date Of Specific Group_
 
-*!charge* `[GroupID]` `[Number Of Days]`
+*charge* `[GroupID]` `[Number Of Days]`
 _Set Expire Time For Specific Group_
 
-*!charge* `[Number Of Days]`
+*charge* `[Number Of Days]`
 _Set Expire Time For Group_
 
-*!jointo* `[GroupID]`
+*jointo* `[GroupID]`
 _Invite You To Specific Group_
 
-*!leave* `[GroupID]`
+*leave* `[GroupID]`
 _Leave Bot From Specific Group_
 
 `This help is only for sudoers/bot admins.`
@@ -1377,103 +1377,103 @@ else
 text = [[
 _راهنمای ادمین و سودو های ربات جاوید:_
 
-*!visudo* `[username|id|reply]`
+*visudo* `[username|id|reply]`
 _اضافه کردن سودو_
 
-*!desudo* `[username|id|reply]`
+*desudo* `[username|id|reply]`
 _حذف کردن سودو_
 
-*!sudolist *
+*sudolist *
 _لیست سودو‌های ربات_
 
-*!adminprom* `[username|id|reply]`
+*adminprom* `[username|id|reply]`
 _اضافه کردن ادمین به ربات_
 
-*!admindem* `[username|id|reply]`
+*admindem* `[username|id|reply]`
 _حذف فرد از ادمینی ربات_
 
-*!adminlist *
+*adminlist *
 _لیست ادمین ها_
 
-*!leave *
+*leave *
 _خارج شدن ربات از گروه_
 
-*!autoleave* `[disable/enable/status]`
+*autoleave* `[disable/enable/status]`
 _خروج خودکار_
 
-*!creategroup* `[text]`
+*creategroup* `[text]`
 _ساخت گروه ریلم_
 
-*!createsuper* `[text]`
+*createsuper* `[text]`
 _ساخت سوپر گروه_
 
-*!tosuper *
+*tosuper *
 _تبدیل به سوپر گروه_
 
-*!chats*
+*chats*
 _لیست گروه های مدیریتی ربات_
 
 *join* `[ID]`
 _جوین شدن توسط ربات_
 
-*!rem* `[GroupID]`
+*rem* `[GroupID]`
 _حذف گروه ازطریق پنل مدیریتی_
 
-*!import* `[link]`
+*import* `[link]`
 _جوین شدن ربات توسط لینک_
 
-*!setbotname* `[text]`
+*setbotname* `[text]`
 _تغییر اسم ربات_
 
-*!setbotusername* `[text]`
+*setbotusername* `[text]`
 _تغییر یوزرنیم ربات_
 
-*!delbotusername* 
+*delbotusername* 
 _پاک کردن یوزرنیم ربات_
 
-*!markread* `[on/off]`
+*markread* `[on/off]`
 _تیک دوم_
 
-*!broadcast* `[text]`
+*broadcast* `[text]`
 _فرستادن پیام به تمام گروه های مدیریتی ربات_
 
-*!bc* `[text]` `[GroupID]`
+*bc* `[text]` `[GroupID]`
 _ارسال پیام مورد نظر به گروه خاص_
 
-*!sendfile* `[cd]` `[file]`
+*sendfile* `[cd]` `[file]`
 _ارسال فایل موردنظر از پوشه خاص_
 
-*!sendplug* `[plugname]`
+*sendplug* `[plugname]`
 _ارسال پلاگ مورد نظر_
 
-*!save* `[plugname] [reply]`
+*save* `[plugname] [reply]`
 _ذخیره کردن پلاگین_
 
-*!savefile* `[address/filename] [reply]`
+*savefile* `[address/filename] [reply]`
 _ذخیره کردن فایل در پوشه مورد نظر_
 
-*!config*
+*config*
 _اضافه کردن سازنده و مدیران گروه به مدیریت ربات_
 
-*!clear cache*
+*clear cache*
 _پاک کردن کش مسیر .telegram-cli/data_
 
-*!check*
+*check*
 _اعلام تاریخ انقضای گروه_
 
 *check* `[GroupID]`
 _اعلام تاریخ انقضای گروه مورد نظر_
 
-*!charge* `[GroupID]` `[days]`
+*charge* `[GroupID]` `[days]`
 _تنظیم تاریخ انقضای گروه مورد نظر_
 
-*!charge* `[days]`
+*charge* `[days]`
 _تنظیم تاریخ انقضای گروه_
 
-*!jointo* `[GroupID]`
+*jointo* `[GroupID]`
 _دعوت شدن شما توسط ربات به گروه مورد نظر_
 
-*!leave* `[GroupID]`
+*leave* `[GroupID]`
 _خارج شدن ربات از گروه مورد نظر_
 
 _این راهنما فقط برای سودو ها/ادمین های ربات میباشد!_

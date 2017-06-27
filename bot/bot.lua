@@ -84,6 +84,9 @@ function create_config( )
     enabled_plugins = {
 		"banhammer",
 		"groupmanager",
+		"cleanbot",
+		"del",
+		"addkick",
 		"msg-checks",
 		"plugins",
 		"info",
