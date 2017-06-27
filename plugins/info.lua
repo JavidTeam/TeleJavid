@@ -49,7 +49,7 @@ local function info_cb(arg, data)
   local um_hash = 'msgs:'..data.id_..':'..arg.chat_id
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'Total messages : '..user_info_msgs..'\n\n'
-  text = text..'@Javid_Team'
+  text = text..'@TeleJavidBot'
   tdcli.sendMessage(arg.chat_id, arg.msgid, 0, text, 0, "md")
 end
 tdcli_function ({
@@ -99,7 +99,7 @@ local function info_by_username(arg, data)
   local um_hash = 'msgs:'..data.id_..':'..arg.chat_id
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'Total messages : '..user_info_msgs..'\n\n'
-  text = text..'@Javid_Team'
+  text = text..'@TeleJavidBot'
   tdcli.sendMessage(arg.chat_id, arg.msgid, 0, text, 0, "md")
    else
    tdcli.sendMessage(arg.chat_id, "", 0, "*User not found*", 0, "md")
@@ -144,7 +144,7 @@ local function info_by_id(arg, data)
   local um_hash = 'msgs:'..data.id_..':'..arg.chat_id
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'Total messages : '..user_info_msgs..'\n\n'
-  text = text..'@Javid_Team'
+  text = text..'@TeleJavidBot'
   tdcli.sendMessage(arg.chat_id, arg.msgid, 0, text, 0, "md")
    else
    tdcli.sendMessage(arg.chat_id, "", 0, "*User not found*", 0, "md")
@@ -217,7 +217,7 @@ local function info2_cb(arg, data)
   local um_hash = 'msgs:'..data.id_..':'..arg.chat_id
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'Total messages : '..user_info_msgs..'\n\n'
-  text = text..'@Javid_Team'
+  text = text..'@TeleJavidBot'
   tdcli.sendMessage(arg.chat_id, arg.msgid, 0, text, 0, "md")
    end
 end
@@ -228,10 +228,27 @@ tdcli_function ({
       end
    end
 end
+
+  if matches[1] == 'me' or matches[1] == 'Me' or matches[1] == 'من' then
+    if is_sudo(msg) then
+      return "*UserName:* @"..(check_markdown(msg.from.username) or 'No UserName').."\n*id:* `"..msg.from.id.."`\n*Rank:* `Full Admin`\n*Total Measages:* `"..user_info_msgs.."️`"
+    elseif is_admin(msg) then
+      return "*UserName:* @"..(check_markdown(msg.from.username) or 'No UserName').."\n*id:* `"..msg.from.id.."`\n*Rank:* `Bot Admin🎭`\n*Total Measages:* `"..user_info_msgs.."`"
+    elseif is_owner(msg) then
+      return "*UserName:* @"..(check_markdown(msg.from.username) or 'No UserName').."\n*id:* `"..msg.from.id.."`\n*Rank:* `Group Owner`\n*Total Measages:* `"..user_info_msgs.."`"
+    elseif is_mod(msg) then
+      return "*UserName:* @"..(check_markdown(msg.from.username) or 'No UserName').."\n*id:* `"..msg.from.id.."`\n*Rank:* `Group Maderator`\n*Total Measages:* `"..user_info_msgs.."`"
+    else
+      return "*UserName:* @"..(check_markdown(msg.from.username) or 'No UserName').."\n*id:* `"..msg.from.id.."`\n*Rank:* `Group Member`\n*Total Measages:* `"..user_info_msgs.."`"
+    end
+  end
+
 return {
 	patterns = {
 "^(info)$",
 "^(info) (.*)$",
+"^([Mm]e)$",
+"^(من)$",
 "^(اطلاعات فرد)$",
 "^(اطلاعات فرد) (.*)$"
 },
